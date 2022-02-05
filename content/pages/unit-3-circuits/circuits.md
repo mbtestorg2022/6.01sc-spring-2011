@@ -11,7 +11,26 @@ uid: c1a11356-f20d-61ec-dbf3-85a0ade29169
 Session Overview
 ----------------
 
-| ![Diagram showing the flow of water through a branching point.]({{< resource_file cc689421-d604-4b15-900e-1893138993ef >}}) |  {{< br >}}{{< br >}} In this session, we start a new unit on circuits. We will explore different motivations for studying circuits, the conventional representations associated with the study of circuits, and Kirchhoff's voltage and current laws. {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources. {{< br >}}{{< br >}} *   [Session 7 Handout: Circuits (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses07) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+![Diagram showing the flow of water through a branching point.]({{< resource_file cc689421-d604-4b15-900e-1893138993ef >}})
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+In this session, we start a new unit on circuits. We will explore different motivations for studying circuits, the conventional representations associated with the study of circuits, and Kirchhoff's voltage and current laws.
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources.
+
+*   [Session 7 Handout: Circuits (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses07)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -52,20 +71,102 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 *   [Design Lab 7: For Your Eyes Only (PDF)]({{< baseurl >}}/resources/mit6_01scs11_designlab07)
 *   [Code for Design Lab 7 (ZIP)]({{< baseurl >}}/resources/designlab07) (This ZIP file contains: 4 .pyc files, 5 .py files and 1 .cmax file.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 7.1.2 | [Potentiometer (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_1_2) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Potentiometer (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Additional Exercises
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 7.2.1 | [Parallel resistors (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_1) |
-| 7.2.2 | [Resistor dividers (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_2) |
-| 7.2.3 | [NVCC (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_3) |
-| 7.2.4 | [Resistor network (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_4) |
-| 7.2.5 | [Argopt (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_5) |
-| 7.2.6 | [floatRange (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_6) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7.2.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Parallel resistors (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7.2.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Resistor dividers (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7.2.3
+{{< tdclose >}}
+{{< tdopen >}}
+[NVCC (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7.2.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Resistor network (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7.2.5
+{{< tdclose >}}
+{{< tdopen >}}
+[Argopt (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7.2.6
+{{< tdclose >}}
+{{< tdopen >}}
+[floatRange (PDF)]({{< baseurl >}}/resources/mit6_01scs11_7_2_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Check Yourself
 --------------

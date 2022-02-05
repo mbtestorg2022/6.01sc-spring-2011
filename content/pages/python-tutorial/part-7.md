@@ -28,9 +28,38 @@ d = emptyAlist()
 
 The problems in the table below are taken from the 6.01 Python Tutor, an interactive environment that is not available on OCW. Do not try to answer these questions in the PDF files; answers will not be checked, and cannot be submitted.
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 7.1.1 | [Add an entry to an alist (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py7_1_1) |
-| 7.1.2 | [Look up an entry in an alist (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py7_1_2) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Add an entry to an alist (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py7_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Look up an entry in an alist (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py7_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 « [Previous]({{< baseurl >}}/pages/python-tutorial/part-6) | [Next]({{< baseurl >}}/pages/unit-1-software-engineering) »

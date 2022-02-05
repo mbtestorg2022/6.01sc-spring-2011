@@ -11,7 +11,28 @@ uid: da41172c-d83b-2571-9eae-caa5c1bcde32
 Session Overview
 ----------------
 
-| ![Illustration of the Manhattan distance.]({{< resource_file fda65a5c-1968-cceb-1619-8e8186c90464 >}}) |  {{< br >}}{{< br >}} In the last session, we introduced the concept of search. We looked at the 6.01 implementation of a general search algorithm, addressed issues of common sense and dynamic programming, and localized a robot. {{< br >}}{{< br >}} In this session, we focus on improving search. We can systematically use information we have about the state space we're searching, in order to save us time and space. {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources. {{< br >}}{{< br >}} *   [Session 13 Handout: Optimizing a Search (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses13) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+![Illustration of the Manhattan distance.]({{< resource_file fda65a5c-1968-cceb-1619-8e8186c90464 >}})
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+In the last session, we introduced the concept of search. We looked at the 6.01 implementation of a general search algorithm, addressed issues of common sense and dynamic programming, and localized a robot.
+
+In this session, we focus on improving search. We can systematically use information we have about the state space we're searching, in order to save us time and space.
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources.
+
+*   [Session 13 Handout: Optimizing a Search (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses13)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -51,19 +72,77 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 *   [Software Lab 14: Plan from Outer Space (PDF)]({{< baseurl >}}/resources/mit6_01scs11_swlab14)
 *   [Code for Software Lab 14 (ZIP)]({{< baseurl >}}/resources/swlab14) (This ZIP file contains: 3 .py files.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 14.1.1 | [Modeling the world (PDF)]({{< baseurl >}}/resources/mit6_01scs11_14_1_1) |
-| 14.1.2 | [Robot on a grid map (PDF)]({{< baseurl >}}/resources/mit6_01scs11_14_1_2) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Modeling the world (PDF)]({{< baseurl >}}/resources/mit6_01scs11_14_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Robot on a grid map (PDF)]({{< baseurl >}}/resources/mit6_01scs11_14_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Design Lab
 
 *   [Design Lab 14: I'm the Map! (PDF)]({{< baseurl >}}/resources/mit6_01scs11_designlab14)
 *   [Code for Design Lab 14 (ZIP)]({{< baseurl >}}/resources/designlab14) (This ZIP file contains: 13 .py files.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 14.2.3 | [Aliasing instances (PDF)]({{< baseurl >}}/resources/mit6_01scs11_14_2_3) |
-| 14.2.6 | [Robot race results \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_14_2_6) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14.2.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Aliasing instances (PDF)]({{< baseurl >}}/resources/mit6_01scs11_14_2_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14.2.6
+{{< tdclose >}}
+{{< tdopen >}}
+[Robot race results \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_14_2_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 « [Previous]({{< baseurl >}}/pages/unit-4-probability-and-planning/search-algorithms) | [Next]({{< baseurl >}}/pages/final-exam) »

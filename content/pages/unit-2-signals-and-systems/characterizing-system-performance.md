@@ -11,7 +11,26 @@ uid: 1900980a-94df-dd0b-4f70-fee6ba697a76
 Session Overview
 ----------------
 
-| ![Diagram showing behavior of the robot in a hallway.]({{< resource_file dcb0c774-ca30-89c8-c429-461ae0068800 >}})  |  {{< br >}}{{< br >}} In this session, we'll learn about poles: what they are, how to find them, and what they tell us about the long-term behavior of an LTI system. {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources. {{< br >}}{{< br >}} *   [Session 5 Handout: Characterizing System Performance (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses05) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+![Diagram showing behavior of the robot in a hallway.]({{< resource_file dcb0c774-ca30-89c8-c429-461ae0068800 >}}) 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+In this session, we'll learn about poles: what they are, how to find them, and what they tell us about the long-term behavior of an LTI system.
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources.
+
+*   [Session 5 Handout: Characterizing System Performance (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses05)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -52,13 +71,66 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 *   [Software Lab 5: System Functions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_swlab05)
 *   [Code for Software Lab 5 (ZIP)]({{< baseurl >}}/resources/swlab05) (This ZIP file contains: 2 .py files.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 5.1.1 | [System function class (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_1) |
-| 5.1.2 | [Cascading systems (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_2) |
-| 5.1.3 | [Cascade of system functions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_3) |
-| 5.1.4 | [Feedback subtract expression (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_4) |
-| 5.1.5 | [FeedbackSubtract code (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_5) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[System function class (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Cascading systems (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.1.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Cascade of system functions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.1.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Feedback subtract expression (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.1.5
+{{< tdclose >}}
+{{< tdopen >}}
+[FeedbackSubtract code (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_1_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Design Lab
 
@@ -67,17 +139,75 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 
 Do problem 5.2.1 before the design lab.
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 5.2.1 | [Wall finder system function (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_2_1) |
-| 5.3.2 | [Wall follower system function (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_3_2) |
-| 5.3.4 | [Wall follower model (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_3_4) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.2.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Wall finder system function (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_2_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Wall follower system function (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_3_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Wall follower model (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_3_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Additional Exercises
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 5.4.1 | [System behavior (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_4_1) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.4.1
+{{< tdclose >}}
+{{< tdopen >}}
+[System behavior (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_4_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Check Yourself
 --------------
@@ -94,11 +224,56 @@ Nano-quiz problems and solutions are taken from a previous version of the 6.01 O
 *   [Homework 2: Heads Up! (PDF)]({{< baseurl >}}/resources/mit6_01scs11_hw2)
 *   [Code for Homework 2 (ZIP)]({{< baseurl >}}/resources/hw2) (This ZIP file contains: 1 .py file.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 5.5.1 | [Modeling the controller/sensor (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_5_1) |
-| 5.5.2 | [Modeling the plant (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_5_2) |
-| 5.5.3 | [Putting it together (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_5_3) |
-| 5.5.4 | [Analyzing the system (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_5_4) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.5.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Modeling the controller/sensor (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_5_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.5.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Modeling the plant (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_5_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.5.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Putting it together (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_5_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.5.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Analyzing the system (PDF)]({{< baseurl >}}/resources/mit6_01scs11_5_5_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 « [Previous]({{< baseurl >}}/pages/unit-2-signals-and-systems/lti-signals-and-systems) | [Next]({{< baseurl >}}/pages/unit-2-signals-and-systems/designing-control-systems) »

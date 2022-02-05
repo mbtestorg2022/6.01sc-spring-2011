@@ -11,7 +11,26 @@ uid: 6b5aad8b-edd8-1cc6-cd71-6bb0eed5c5d8
 Session Overview
 ----------------
 
-|  ![Block diagram of a discrete-time system.]({{< resource_file c607e870-3636-bd83-0f75-977980d8ab1e >}}) |  {{< br >}}{{< br >}} Any model of the world we want to study, that we address as a system, we also probably want to observe in some way (this is probably the reason we made the model in the first place). The information we choose to observe is the signal. Based on what we know about different kinds of signals and systems, we can choose what information to collect as a signal, and make effective long-term predictions about our system based on that signal. {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources. {{< br >}}{{< br >}} *   [Session 3 Handout: Signals and Systems (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses03) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+ ![Block diagram of a discrete-time system.]({{< resource_file c607e870-3636-bd83-0f75-977980d8ab1e >}})
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Any model of the world we want to study, that we address as a system, we also probably want to observe in some way (this is probably the reason we made the model in the first place). The information we choose to observe is the signal. Based on what we know about different kinds of signals and systems, we can choose what information to collect as a signal, and make effective long-term predictions about our system based on that signal.
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources.
+
+*   [Session 3 Handout: Signals and Systems (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses03)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -44,14 +63,75 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 
 *   [Software Lab 3: Composing State Machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_swlab03)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 3.1.1 | [Simulating cascade (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_1) |
-| 3.1.2 | [Cascading machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_2) |
-| 3.1.3 | [Function machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_3) |
-| 3.1.4 | [Combining accounts (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_4) |
-| 3.1.5 | [Sequential combinations (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_5) |
-| 3.1.6 | [Feedback SM (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_6) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Simulating cascade (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Cascading machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.1.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Function machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.1.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Combining accounts (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.1.5
+{{< tdclose >}}
+{{< tdopen >}}
+[Sequential combinations (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.1.6
+{{< tdclose >}}
+{{< tdopen >}}
+[Feedback SM (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_1_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Design Lab
 
@@ -60,12 +140,57 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 
 ### Additional Exercises
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 3.3.1 | [Map (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_3_1) |
-| 3.3.2 | [Indexing nested lists (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_3_2) |
-| 3.3.3 | [Finding systems (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_3_3) |
-| 3.3.4 | [Representations (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_3_4) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.3.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Map (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_3_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.3.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Indexing nested lists (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_3_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.3.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Finding systems (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_3_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3.3.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Representations (PDF)]({{< baseurl >}}/resources/mit6_01scs11_3_3_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Check Yourself
 --------------

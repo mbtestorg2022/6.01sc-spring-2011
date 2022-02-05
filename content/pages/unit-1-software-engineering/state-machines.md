@@ -11,7 +11,28 @@ uid: b0e7778a-9914-9a75-aa7b-17b290520cb3
 Session Overview
 ----------------
 
-| ![Image of the Towers of Hanoi puzzle.]({{< resource_file 876348cf-c054-d115-0799-45d3f42fedea >}}) |  {{< br >}}{{< br >}} In this session, we expand on programming, introducing other programming paradigms and indicating features of Python that tie in to notable programming concepts. {{< br >}}{{< br >}} We also introduce state machines. State machines model systems that are functional, but also have memory. State machines are incredibly general, but incredibly powerful, and can be used to model all kinds of systems, as you'll see in future sessions. You can use state machines to control, model, and predict behaviors in systems. {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, and what you should understand (theory) and be able to do (practice) after completing this session. {{< br >}}{{< br >}} *   [Session 2 Handout: State Machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses02) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+![Image of the Towers of Hanoi puzzle.]({{< resource_file 876348cf-c054-d115-0799-45d3f42fedea >}})
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+In this session, we expand on programming, introducing other programming paradigms and indicating features of Python that tie in to notable programming concepts.
+
+We also introduce state machines. State machines model systems that are functional, but also have memory. State machines are incredibly general, but incredibly powerful, and can be used to model all kinds of systems, as you'll see in future sessions. You can use state machines to control, model, and predict behaviors in systems.
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, and what you should understand (theory) and be able to do (practice) after completing this session.
+
+*   [Session 2 Handout: State Machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses02)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -52,13 +73,66 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 *   [Software Lab 2: State Machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_swlab02)
 *   [Code for Software Lab 2 (ZIP)]({{< baseurl >}}/resources/swlab02) (This ZIP file contains: 1 .py file.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 2.1.1 | [State machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_1) |
-| 2.1.2 | [Turnstile state machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_2) |
-| 2.1.3 | [Double delay state machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_3) |
-| 2.1.4 | [Comments machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_4) |
-| 2.1.5 | [First word machine \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_5) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[State machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Turnstile state machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.1.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Double delay state machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.1.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Comments machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.1.5
+{{< tdclose >}}
+{{< tdopen >}}
+[First word machine \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_1_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Design Lab
 
@@ -67,13 +141,66 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 
 ### Additional Exercises
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 2.3.1 | [Inheritance I (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_1) |
-| 2.3.2 | [Inheritance II (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_2) |
-| 2.3.3 | [Inheritance and state machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_3) |
-| 2.3.4 | [Introduction to recursion (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_4) |
-| 2.3.5 | [Slow mod (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_5) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.3.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Inheritance I (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.3.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Inheritance II (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.3.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Inheritance and state machines (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.3.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Introduction to recursion (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.3.5
+{{< tdclose >}}
+{{< tdopen >}}
+[Slow mod (PDF)]({{< baseurl >}}/resources/mit6_01scs11_2_3_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Check Yourself
 --------------

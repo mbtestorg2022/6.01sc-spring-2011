@@ -16,16 +16,101 @@ Before starting these problems, please read:
 
 The problems in the table below are taken from the 6.01 Python Tutor, an interactive environment that is not available on OCW. Do not try to answer these questions in the PDF files; answers will not be checked, and cannot be submitted.
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 2.1.1 | [Fun with functions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_1_1) |
-| 2.1.2 | [Functions and scope (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_1_2) |
-| 2.1.3 | [Scoping (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_1_3) |
-| 2.2.1 | [Square (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_1) |
-| 2.2.2 | [Fourth power (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_2) |
-| 2.2.3 | [Odd test (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_3) |
-| 2.2.4 | [From point A to point B (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_4) |
-| 2.2.5 | [Evaluate a quadratic at a point (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_5) |
-| 2.2.6 | [Distance from point to line (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_6) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Fun with functions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Functions and scope (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.1.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Scoping (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_1_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.2.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Square (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.2.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Fourth power (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.2.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Odd test (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.2.4
+{{< tdclose >}}
+{{< tdopen >}}
+[From point A to point B (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.2.5
+{{< tdclose >}}
+{{< tdopen >}}
+[Evaluate a quadratic at a point (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2.2.6
+{{< tdclose >}}
+{{< tdopen >}}
+[Distance from point to line (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py2_2_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 « [Previous]({{< baseurl >}}/pages/python-tutorial/part-i) | [Next]({{< baseurl >}}/pages/python-tutorial/part-3) »

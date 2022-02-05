@@ -10,9 +10,36 @@ This unit focuses on analyzing the behaviors of systems. General principles for 
 
  ![Diagram of a vehicle attempting to follow a straight line, and its responses to steering.]({{< resource_file 10171c46-9cd5-4b08-b5ec-e722b134b26c >}})
 
-| **Topics** | difference equations, system functions, controllers |
-| **Lab Exercises** | robotic steering |
-| **Theme** | modeling complex systems, analyzing behaviors 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Topics**
+{{< tdclose >}}
+{{< tdopen >}}
+difference equations, system functions, controllers
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Lab Exercises**
+{{< tdclose >}}
+{{< tdopen >}}
+robotic steering
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Theme**
+{{< tdclose >}}
+{{< tdopen >}}
+modeling complex systems, analyzing behaviors
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Looking for something specific in this course? The [Resource Index]({{< baseurl >}}/pages/resource-index) compiles links to most course resources in a single page.
 

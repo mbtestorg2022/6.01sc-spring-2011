@@ -11,7 +11,28 @@ uid: e97072ec-1818-d115-7deb-3b29326fe85e
 Session Overview
 ----------------
 
-| ![Conditional probability of events A and B.]({{< resource_file a8a27eea-e912-15dc-bdbb-63559232dc33 >}})  |  {{< br >}}{{< br >}} We've been talking about how to analyze and design systems, but we haven't talked about how to make systems robust under uncertainty. In fact, we haven't even talked about how to model uncertainty. {{< br >}}{{< br >}} In this unit, we'll address the problem that systems we design may have to operate under uncertainty, and that we may want those systems to be able to search the world for possible solutions to problems. We'll introduce the basics of probability and search in this session, and apply those concepts to our design challenges. {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources. {{< br >}}{{< br >}} *   [Session 10 Handout: Discrete Probability (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses10) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+![Conditional probability of events A and B.]({{< resource_file a8a27eea-e912-15dc-bdbb-63559232dc33 >}}) 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+We've been talking about how to analyze and design systems, but we haven't talked about how to make systems robust under uncertainty. In fact, we haven't even talked about how to model uncertainty.
+
+In this unit, we'll address the problem that systems we design may have to operate under uncertainty, and that we may want those systems to be able to search the world for possible solutions to problems. We'll introduce the basics of probability and search in this session, and apply those concepts to our design challenges.
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources.
+
+*   [Session 10 Handout: Discrete Probability (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses10)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -51,15 +72,84 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 *   [Software Lab 10: Distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_swlab10)
 *   [Code for Software Lab 10 (ZIP)]({{< baseurl >}}/resources/swlab10) (This ZIP file contains: 1 .py file.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 10.1.1 | [Probability distributions: DDist (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_1) |
-| 10.1.2 | [Conditional distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_2) |
-| 10.1.3 | [Joint distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_3) |
-| 10.1.4 | [Operations on conditional distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_4) |
-| 10.1.5 | [Where are you? (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_5) |
-| 10.1.6 | [Implementing joint distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_6) |
-| 10.1.7 | [Implementing operations on conditional distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_7) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Probability distributions: DDist (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Conditional distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.1.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Joint distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.1.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Operations on conditional distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.1.5
+{{< tdclose >}}
+{{< tdopen >}}
+[Where are you? (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.1.6
+{{< tdclose >}}
+{{< tdopen >}}
+[Implementing joint distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.1.7
+{{< tdclose >}}
+{{< tdopen >}}
+[Implementing operations on conditional distributions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_1_7)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Design Lab
 
@@ -68,12 +158,65 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 
 ### Additional Exercises
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 10.3.1 | [A distribution (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_1) |
-| 10.3.2 | [Summing to 1 (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_2) |
-| 10.3.3 | [Truth (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_3) |
-| 10.3.4 | [Equivalence (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_4) |
-| 10.3.5 | [Buying a car (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_5) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.3.1
+{{< tdclose >}}
+{{< tdopen >}}
+[A distribution (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.3.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Summing to 1 (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.3.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Truth (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.3.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Equivalence (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.3.5
+{{< tdclose >}}
+{{< tdopen >}}
+[Buying a car (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 « [Previous]({{< baseurl >}}/pages/unit-4-probability-and-planning) | [Next]({{< baseurl >}}/pages/unit-4-probability-and-planning/state-estimation) »

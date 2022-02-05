@@ -11,7 +11,28 @@ uid: e019a65f-ac12-802a-35be-220a70b2f839
 Session Overview
 ----------------
 
-| ![Part of a circuit diagram.]({{< resource_file f9899e02-b544-a0c1-1bec-cd8dbcc91257 >}}) |  {{< br >}}{{< br >}} In this session, we use what we've learned in the previous two sessions to allow even further circuit abstraction. We'll learn about Thevenin equivalence (as well as Norton equivalence) and superposition. {{< br >}}{{< br >}} Thevenin equivalence supplies a discipline for abstracting complex systems down into simple, equivalent representations, typically in order to substitute the simple representation back into a larger circuit. Superposition allows us to solve circuits more quickly (and for some, more intuitively). {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources. {{< br >}}{{< br >}} *   [Session 9 Handout: Circuit Abstractions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses09) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+![Part of a circuit diagram.]({{< resource_file f9899e02-b544-a0c1-1bec-cd8dbcc91257 >}})
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+In this session, we use what we've learned in the previous two sessions to allow even further circuit abstraction. We'll learn about Thevenin equivalence (as well as Norton equivalence) and superposition.
+
+Thevenin equivalence supplies a discipline for abstracting complex systems down into simple, equivalent representations, typically in order to substitute the simple representation back into a larger circuit. Superposition allows us to solve circuits more quickly (and for some, more intuitively).
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources.
+
+*   [Session 9 Handout: Circuit Abstractions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses09)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -60,15 +81,92 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 
 The optional questions (10.3.6-10.3.9) are provided as additional preparation for [Midterm Exam 2]({{< baseurl >}}/pages/midterm-exam-2).
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 9.3.1 | [Thevenin equivalents (PDF)]({{< baseurl >}}/resources/mit6_01scs11_9_3_1) |
-| 9.3.2 | [Thevenin practice (PDF)]({{< baseurl >}}/resources/mit6_01scs11_9_3_2) |
-| 9.3.3 | [More Thevenin (PDF)]({{< baseurl >}}/resources/mit6_01scs11_9_3_3) |
-| 9.3.4 | [Thevenin divider (PDF)]({{< baseurl >}}/resources/mit6_01scs11_9_3_4) |
-| 10.3.6 | [Subtraction action \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_6) |
-| 10.3.7 | [Op-amp \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_7) |
-| 10.3.8 | [Op-amp \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_8) |
-| 10.3.9 | [Endless summer \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_9) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9.3.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Thevenin equivalents (PDF)]({{< baseurl >}}/resources/mit6_01scs11_9_3_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9.3.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Thevenin practice (PDF)]({{< baseurl >}}/resources/mit6_01scs11_9_3_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9.3.3
+{{< tdclose >}}
+{{< tdopen >}}
+[More Thevenin (PDF)]({{< baseurl >}}/resources/mit6_01scs11_9_3_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9.3.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Thevenin divider (PDF)]({{< baseurl >}}/resources/mit6_01scs11_9_3_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.3.6
+{{< tdclose >}}
+{{< tdopen >}}
+[Subtraction action \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.3.7
+{{< tdclose >}}
+{{< tdopen >}}
+[Op-amp \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_7)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.3.8
+{{< tdclose >}}
+{{< tdopen >}}
+[Op-amp \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_8)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10.3.9
+{{< tdclose >}}
+{{< tdopen >}}
+[Endless summer \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_10_3_9)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 « [Previous]({{< baseurl >}}/pages/unit-3-circuits/op-amps) | [Next]({{< baseurl >}}/pages/midterm-exam-2) »

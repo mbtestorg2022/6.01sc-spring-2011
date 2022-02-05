@@ -11,7 +11,26 @@ uid: 09ae0a4b-00ca-3719-2b3f-fe9f36ca05cd
 Session Overview
 ----------------
 
-|  ![Diagram of feedback addition composition.]({{< resource_file cd231b17-a8b2-ca23-1b9d-7577e61b44e7 >}}) |  {{< br >}}{{< br >}} In the last session, we demonstrated the versatility of state machines and introduced signals and systems. In this session, we will focus on linear time-invariant (LTI) systems. We'll be able to represent LTI systems using state machines, and introduce other ways to represent LTI systems. Once we know that a system is LTI, we can use what we know about linear time-invariance to analyze and predict the behavior of the system. {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources. {{< br >}}{{< br >}} *   [Session 4 Handout: Linear Time-Invariant Signals and Systems (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses04) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+ ![Diagram of feedback addition composition.]({{< resource_file cd231b17-a8b2-ca23-1b9d-7577e61b44e7 >}})
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+In the last session, we demonstrated the versatility of state machines and introduced signals and systems. In this session, we will focus on linear time-invariant (LTI) systems. We'll be able to represent LTI systems using state machines, and introduce other ways to represent LTI systems. Once we know that a system is LTI, we can use what we know about linear time-invariance to analyze and predict the behavior of the system.
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources.
+
+*   [Session 4 Handout: Linear Time-Invariant Signals and Systems (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses04)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -39,13 +58,66 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 *   [Software Lab 4: Signal Class (PDF)]({{< baseurl >}}/resources/mit6_01scs11_swlab04)
 *   [Code for Software Lab 4 (ZIP)]({{< baseurl >}}/resources/swlab04) (This ZIP file contains: 5 .py files.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 4.1.1 | [Constructing signals (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_1) |
-| 4.1.2 | [Step signal (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_2) |
-| 4.1.3 | [Subclasses of signals (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_3) |
-| 4.1.4 | [Additional subclasses (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_4) |
-| 4.1.5 | [PolyR on signals (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_5) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Constructing signals (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Step signal (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.1.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Subclasses of signals (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.1.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Additional subclasses (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.1.5
+{{< tdclose >}}
+{{< tdopen >}}
+[PolyR on signals (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_1_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Design Lab
 
@@ -54,21 +126,111 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 
 Do problem 4.2.1 before the design lab.
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 4.2.1 | [Difference equations (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_2_1) |
-| 4.3.1 | [Wall finder (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_3_1) |
-| 4.3.3 | [State machine composition (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_3_3) |
-| 4.3.5 | [Wall finder state machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_3_5) |
-| 4.3.6 | [Wall finder gains (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_3_6) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.2.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Difference equations (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_2_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.3.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Wall finder (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_3_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.3.3
+{{< tdclose >}}
+{{< tdopen >}}
+[State machine composition (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_3_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.3.5
+{{< tdclose >}}
+{{< tdopen >}}
+[Wall finder state machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_3_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.3.6
+{{< tdclose >}}
+{{< tdopen >}}
+[Wall finder gains (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_3_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Additional Exercises
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 4.4.1 | [LTISM (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_4_1) |
-| 4.4.2 | [Implement LTISM (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_4_2) |
-| 4.4.3 | [TransducedSignal (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_4_3) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.4.1
+{{< tdclose >}}
+{{< tdopen >}}
+[LTISM (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_4_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.4.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Implement LTISM (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_4_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4.4.3
+{{< tdclose >}}
+{{< tdopen >}}
+[TransducedSignal (PDF)]({{< baseurl >}}/resources/mit6_01scs11_4_4_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Check Yourself
 --------------

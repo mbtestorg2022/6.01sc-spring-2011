@@ -11,7 +11,28 @@ uid: 497582d8-68ca-82e7-7ef7-6b997e187b13
 Session Overview
 ----------------
 
-| ![The eight puzzle in its goal state.]({{< resource_file 746bcd6f-2b77-7e86-0f5f-e4d244b1c9eb >}}) |  {{< br >}}{{< br >}} In this session, we introduce the idea of search. We've designed systems to tackle static problems and modeled the idea of uncertainty, but we still haven't developed a way to approach that uncertainty and engage in decision-making that we can codify into our systems. {{< br >}}{{< br >}} We can tackle uncertainty through search; if we know the domain of possible solutions to a problem, and know the steps to get from one part of the domain to the other, then we can search the domain until we reach the solution. {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources. {{< br >}}{{< br >}} *   [Session 12 Handout: Search Algorithms (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses12) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+![The eight puzzle in its goal state.]({{< resource_file 746bcd6f-2b77-7e86-0f5f-e4d244b1c9eb >}})
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+In this session, we introduce the idea of search. We've designed systems to tackle static problems and modeled the idea of uncertainty, but we still haven't developed a way to approach that uncertainty and engage in decision-making that we can codify into our systems.
+
+We can tackle uncertainty through search; if we know the domain of possible solutions to a problem, and know the steps to get from one part of the domain to the other, then we can search the domain until we reach the solution.
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources.
+
+*   [Session 12 Handout: Search Algorithms (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses12)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -51,10 +72,39 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 *   [Software Lab 13: Farmer Goat Wolf Cabbage (PDF)]({{< baseurl >}}/resources/mit6_01scs11_swlab13)
 *   [Code for Software Lab 13 (ZIP)]({{< baseurl >}}/resources/swlab13) (This ZIP file contains: 2 .py files.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 13.1.1 | [Farmer et al.: Machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_1_1) |
-| 13.1.2 | [Farmer et al.: Search (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_1_2) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Farmer et al.: Machine (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Farmer et al.: Search (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Design Lab
 
@@ -63,15 +113,84 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 
 ### Additional Exercises
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 13.3.1 | [Compare searches (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_1) |
-| 13.3.2 | [Compare searches (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_2) |
-| 13.3.3 | [Paths in the map (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_3) |
-| 13.3.4 | [Robot on a grid (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_4) |
-| 13.3.5 | [Obstacles \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_5) |
-| 13.3.6 | [Knight paths on a chessboard \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_6) |
-| 13.3.7 | [Two robots on a grid \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_7) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13.3.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Compare searches (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13.3.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Compare searches (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13.3.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Paths in the map (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13.3.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Robot on a grid (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13.3.5
+{{< tdclose >}}
+{{< tdopen >}}
+[Obstacles \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13.3.6
+{{< tdclose >}}
+{{< tdopen >}}
+[Knight paths on a chessboard \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13.3.7
+{{< tdclose >}}
+{{< tdopen >}}
+[Two robots on a grid \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_13_3_7)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Check Yourself
 --------------

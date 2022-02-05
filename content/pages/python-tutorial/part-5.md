@@ -19,21 +19,146 @@ Before starting these problems, please read:
 
 The problems in the table below are taken from the 6.01 Python Tutor, an interactive environment that is not available on OCW. Do not try to answer these questions in the PDF files; answers will not be checked, and cannot be submitted.
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 5.1.1 | [More expressions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_1_1) |
-| 5.1.2 | [Ranger (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_1_2) |
-| 5.2.1 | [From point A to point B (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_2_1) |
-| 5.2.2 | [Distance from point to line (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_2_2) |
-| 5.3.1 | [Multiple times (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_1) |
-| 5.3.2 | [Every other (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_2) |
-| 5.3.3 | [Cat 6 (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_3) |
-| 5.3.4 | [Home on the range (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_4) |
-| 5.3.5 | [The mean of a list of numbers (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_5) |
-| 5.3.6 | [Standard deviation (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_6) |
-| 5.3.7 | [Dictionaries (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_7) |
-| 5.3.8 | [Slice of Pi (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_8) |
-| 5.3.9 | [Polly (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_9) |
-| 5.3.10 | [As close as necessary (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_10) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.1.1
+{{< tdclose >}}
+{{< tdopen >}}
+[More expressions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_1_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.1.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Ranger (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_1_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.2.1
+{{< tdclose >}}
+{{< tdopen >}}
+[From point A to point B (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_2_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.2.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Distance from point to line (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_2_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Multiple times (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Every other (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Cat 6 (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.4
+{{< tdclose >}}
+{{< tdopen >}}
+[Home on the range (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.5
+{{< tdclose >}}
+{{< tdopen >}}
+[The mean of a list of numbers (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.6
+{{< tdclose >}}
+{{< tdopen >}}
+[Standard deviation (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.7
+{{< tdclose >}}
+{{< tdopen >}}
+[Dictionaries (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_7)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.8
+{{< tdclose >}}
+{{< tdopen >}}
+[Slice of Pi (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_8)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.9
+{{< tdclose >}}
+{{< tdopen >}}
+[Polly (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_9)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5.3.10
+{{< tdclose >}}
+{{< tdopen >}}
+[As close as necessary (PDF)]({{< baseurl >}}/resources/mit6_01scs11_py5_3_10)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 « [Previous]({{< baseurl >}}/pages/python-tutorial/part-4) | [Next]({{< baseurl >}}/pages/python-tutorial/part-6) »

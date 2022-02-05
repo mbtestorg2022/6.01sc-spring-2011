@@ -10,9 +10,44 @@ After a brief introduction to probability theory and computational search strate
 
  ![Two images representing how the robot navigates through a maze.]({{< resource_file a9068a5c-0490-4fc6-1006-0d0b8ddc81a8 >}})
 
-| **Topics** | Bayes' theorem, search strategies |
-| **Lab Exercises** |  {{< br >}}{{< br >}} Mapping: drive robot around unknown space and make map {{< br >}}{{< br >}} Localization: give robot map and ask it to find where it is {{< br >}}{{< br >}} Planning: plot a route to a goal in a maze {{< br >}}{{< br >}}  |
-| **Theme** | robust design in the face of uncertainty 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Topics**
+{{< tdclose >}}
+{{< tdopen >}}
+Bayes' theorem, search strategies
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Lab Exercises**
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Mapping: drive robot around unknown space and make map
+
+Localization: give robot map and ask it to find where it is
+
+Planning: plot a route to a goal in a maze
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+**Theme**
+{{< tdclose >}}
+{{< tdopen >}}
+robust design in the face of uncertainty
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Looking for something specific in this course? The [Resource Index]({{< baseurl >}}/pages/resource-index) compiles links to most course resources in a single page.
 

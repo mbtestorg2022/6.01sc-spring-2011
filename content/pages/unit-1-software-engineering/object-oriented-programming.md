@@ -11,7 +11,26 @@ uid: cb0b0a8c-7715-b7fb-9536-b7d77a728231
 Session Overview
 ----------------
 
-| ![Diagram of EECS, the universe, and 6.01 topics.]({{< resource_file 477eadfa-0dce-d2e6-4eca-b6db56fbb897 >}}) |  {{< br >}}{{< br >}} In this session, we introduce you to some of the core concepts of 6.01. We will also focus on programming, in particular the object-oriented programming paradigm in Python. Topics include primitives, expressions, assignments, functions, environments, OOP, and inheritance. {{< br >}}{{< br >}} The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources. {{< br >}}{{< br >}} *   [Session 1 Handout: Object-Oriented Programming (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses01) {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+![Diagram of EECS, the universe, and 6.01 topics.]({{< resource_file 477eadfa-0dce-d2e6-4eca-b6db56fbb897 >}})
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+In this session, we introduce you to some of the core concepts of 6.01. We will also focus on programming, in particular the object-oriented programming paradigm in Python. Topics include primitives, expressions, assignments, functions, environments, OOP, and inheritance.
+
+The overview handout provides a more detailed introduction, including the big ideas of the session, key vocabulary, what you should understand (theory) and be able to do (practice) after completing this session, and additional resources.
+
+*   [Session 1 Handout: Object-Oriented Programming (PDF)]({{< baseurl >}}/resources/mit6_01scs11_ses01)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Session Content
 ---------------
@@ -54,30 +73,192 @@ The problems in the tables below are taken from the 6.01 Online Tutor, an intera
 *   [Design Lab 1: Object-Oriented Programming (PDF)]({{< baseurl >}}/resources/mit6_01scs11_designlab01)
 *   [Code for Design Lab 1 (ZIP)]({{< baseurl >}}/resources/designlab01) (This ZIP contains: 1 .py file.)
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 1.3.1 | [Fibonacci numbers (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_1) |
-| 1.3.2 | [Simple OOPs (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_2) |
-| 1.3.3 | [Transcript (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_3) |
-| 1.3.4 | [2D vector arithmetic (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_4) |
-| 1.3.5 | [Polynomial representations (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_5) |
-| 1.3.6 | [Polynomial class (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_6) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.3.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Fibonacci numbers (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.3.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Simple OOPs (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.3.3
+{{< tdclose >}}
+{{< tdopen >}}
+[Transcript (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.3.4
+{{< tdclose >}}
+{{< tdopen >}}
+[2D vector arithmetic (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.3.5
+{{< tdclose >}}
+{{< tdopen >}}
+[Polynomial representations (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.3.6
+{{< tdclose >}}
+{{< tdopen >}}
+[Polynomial class (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_3_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Additional Exercises
 
-| PROBLEM # | QUESTIONS |
-| --- | --- |
-| 1.4.1 | [Structured assignments (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_1) |
-| 1.4.2 | [Nested and shared structure (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_2) |
-| 1.4.3 | [List comprehensions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_3) |
-| 1.4.4 | [OOPs (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_4) |
-| 1.4.5 | [OOPs (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_5) |
-| 1.4.6 | [OOPs (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_6) |
-| 1.4.7 | [Palindrome \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_7) |
-| 1.4.8 | [Substring \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_8) |
-| 1.4.9 | [Extract tags \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_9) |
-| 1.4.10 | [Fruit class \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_10) |
-| 1.4.11 | [Warehouse \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_11) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROBLEM #
+{{< thclose >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.1
+{{< tdclose >}}
+{{< tdopen >}}
+[Structured assignments (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_1)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.2
+{{< tdclose >}}
+{{< tdopen >}}
+[Nested and shared structure (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_2)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.3
+{{< tdclose >}}
+{{< tdopen >}}
+[List comprehensions (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_3)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.4
+{{< tdclose >}}
+{{< tdopen >}}
+[OOPs (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_4)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.5
+{{< tdclose >}}
+{{< tdopen >}}
+[OOPs (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_5)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.6
+{{< tdclose >}}
+{{< tdopen >}}
+[OOPs (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_6)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.7
+{{< tdclose >}}
+{{< tdopen >}}
+[Palindrome \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_7)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.8
+{{< tdclose >}}
+{{< tdopen >}}
+[Substring \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_8)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.9
+{{< tdclose >}}
+{{< tdopen >}}
+[Extract tags \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_9)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.10
+{{< tdclose >}}
+{{< tdopen >}}
+[Fruit class \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_10)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1.4.11
+{{< tdclose >}}
+{{< tdopen >}}
+[Warehouse \[optional\] (PDF)]({{< baseurl >}}/resources/mit6_01scs11_1_4_11)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Check Yourself
 --------------
