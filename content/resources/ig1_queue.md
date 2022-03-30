@@ -11,6 +11,7 @@ image_metadata:
   image-alt: "Table with five columns and three rows. Column 1 contains students'\
     \ names and pictures; column 2 has the assignment names; column 3 has students\u2019\
     \ table numbers; column 4 has staff names."
+parent_uid: e5627dfb-5583-4b92-360e-5e5b805c607a
 resourcetype: Image
 title: ig1_queue.png
 uid: ea103d55-f789-ad6b-6516-aa31cfa08582

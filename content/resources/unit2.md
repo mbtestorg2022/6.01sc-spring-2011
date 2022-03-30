@@ -8,6 +8,7 @@ image_metadata:
   credit: ''
   image-alt: Diagram of a vehicle attempting to follow a straight line, and its responses
     to steering.
+parent_uid: 523e1f18-8f85-4804-7030-f2ec4580e9b6
 resourcetype: Image
 title: unit2.jpg
 uid: 10171c46-9cd5-4b08-b5ec-e722b134b26c

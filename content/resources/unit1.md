@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Diagram of sensor input, brain, and action.
+parent_uid: 0c533b50-ae1f-2ed5-2d4e-2e0343b23b5b
 resourcetype: Image
 title: unit1.jpg
 uid: 2b5ba17e-f6a4-14b5-0e1c-eeb127efb06f
